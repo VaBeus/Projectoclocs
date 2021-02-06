@@ -632,6 +632,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    padding-top: 80px;
 }
 
 
@@ -718,18 +719,20 @@
 
 .categorii_spisok {
     display: flex;
-    justify-content:  space-evenly;
+    justify-content: start;
     flex-wrap: wrap;
-    max-width: 287px;
-    max-width: 174px;
-    
-
+    max-width: 330px;
+    max-height: 184px; 
+    margin-top: 40px;
 }
 
 
 
 
 
+.categorii_spisok .spisok_link{
+    margin: 20px 20px 10px 0px ;
+}
 
 
 
