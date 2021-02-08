@@ -9,7 +9,7 @@
     background:black;
     display: flex;
     justify-content: start;
-    height: 44px;
+    min-height: 44px;
     width: 100%;
     font-family: 'PT Sans', sans-serif;
     color: grey;
@@ -30,8 +30,8 @@
 
  .heder.text_info{
     margin: 15.33px 1000px 15.33px 16px;
-    width: 355px;
-    height: 16px;
+    min-width: 355px;
+    min-height: 16px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
@@ -53,7 +53,7 @@
 
 
 
- .heder.text_info{
+ .exit_link{
     margin-left: 10px;
     color: grey;
 }
@@ -65,7 +65,7 @@
     background:black;
     display: flex;
     justify-content: start;
-    height: 80px;
+    min-height: 80px;
     width: 100%;
     font-family: 'PT Sans', 'Alegreya Sans',sans-serif;
     align-items: center;
@@ -81,8 +81,8 @@
     font-size: 36px;
     line-height: 54px;
     margin: 15px 200px 16px;
-    width: 104px;
-    height: 49px;
+    min-width: 104px;
+    min-height: 49px;
     color: white;
 }
 
@@ -96,7 +96,7 @@
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
-    width: 96px;
+    min-width: 96px;
     height: 18px;
     color: grey;
     margin-left: 700px ;
@@ -630,9 +630,8 @@
     height: 400px;
     padding-top: 80px ;
     display: flex;
-    justify-content: start;
-    align-items: center;
-    padding-top: 80px;
+    justify-content:center;
+    
 }
 
 
@@ -642,19 +641,12 @@
 
 .info_block .o_magaz{
     width: 350px;
-    height: 147px;
+    height:219px;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    margin:auto 30px 101px 80px ;
+    margin-bottom: 101px  ;
 }
-
-
-
-
-
-
-
 
 
 
@@ -667,7 +659,7 @@
     line-height: 32px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 30px;
+    margin-bottom: 30px; ;
 
 }
 
@@ -692,7 +684,9 @@
 
 
 
-
+.categorii{
+    margin:0px 92px 144px 30px ;
+}
 
 
 
@@ -723,7 +717,7 @@
     flex-wrap: wrap;
     max-width: 330px;
     max-height: 184px; 
-    margin-top: 40px;
+   
 }
 
 
@@ -733,6 +727,99 @@
 .categorii_spisok .spisok_link{
     margin: 20px 20px 10px 0px ;
 }
+
+
+
+
+
+
+
+.rasilka_block{
+display: flex;
+justify-content: start;
+flex-direction: column;
+
+
+}
+
+
+
+
+
+
+
+.rasilka_block h3{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+.rasilka_block p{
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+
+}
+
+
+.form_block{
+    display: flex;
+    align-items: start;
+}
+
+
+
+
+
+.email_pole{
+    min-width: 210px;
+    min-height: 42px;
+    background: rgba(255, 255, 255, 0.61);
+    
+}
+
+
+
+
+.last_line{
+    max-width: 1920px;
+    min-height: 50px;
+    background: #0F0F0F;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 35px;
+}
+
+
+
+
+
+.last_line p{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
 
 
 
